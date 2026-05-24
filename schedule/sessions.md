@@ -16,11 +16,11 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** —
 
 **Activities:**
-- [ ] Read [README.md](../README.md)
-- [ ] Read [goals.md](../goals.md)
-- [ ] Skim [concept-graph.md](../concept-graph.md)
-- [ ] Bear Hunter the node files (titles only)
-- [ ] Fill in [schedule/logs/session-01.md](logs/session-01.md)
+- [x] Read [README.md](../README.md)
+- [x] Read [goals.md](../goals.md)
+- [x] Skim [concept-graph.md](../concept-graph.md)
+- [x] Bear Hunter the node files (titles only)
+- [x] Fill in [schedule/logs/session-01.md](logs/session-01.md)
 
 **References:**
 - README: [README.md](../README.md)

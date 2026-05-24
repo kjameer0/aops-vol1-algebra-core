@@ -108,7 +108,7 @@ sessions:
     type: orientation
     nodes: []
     target_offset: 0
-    completed_on: null
+    completed_on: 2026-05-24
     activities:
       - "Read README.md"
       - "Read goals.md"

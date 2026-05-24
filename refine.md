@@ -62,3 +62,18 @@ None.
 - No pre-generated worksheets existed in `nodes/*/`, so no stale-marking was needed. New worksheets will be produced on first `schedule` run from the updated `fluency_spec` counts.
 - Run `/learning-plan audit "/Users/khalidjameer/Documents/Obsidian Vaults/Personal Vault/aops-vol1-algebra-core"` to confirm 0 errors / 0 warnings on the edited structure.
 - Then `/learning-plan schedule "<module>"` to set cadence and generate worksheets + `.ics`.
+
+---
+
+## 2026-05-24c — sources: logs (session-01)
+
+### Applied
+- **Session-log template (`templates/session-log.md`):** added a brief description to each marginal-gains dimension so raters know what each row measures (resolves session-01 issue 1).
+- **Session-log template:** added an `**Expected duration:**` header field above the actual `Duration:` field, so each log captures the planned vs. actual session length (resolves session-01 issue 2).
+- **`subcommands/complete.md`:** updated the pre-fill step to populate `Expected duration` from `cadence.minutes_per_session` when generating future session log files.
+
+### Surfaced (user decision required)
+None. Session-01 log left as-is (issues were template-level and only affect future logs).
+
+### Recommended follow-ups
+- Future `/learning-plan complete` runs will emit logs with the new fields populated. No reschedule needed.
