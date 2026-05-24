@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//learning-plan//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:aops-vol1-algebra-core — learning plan
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-01@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260524T090000
+DTEND;TZID=America/New_York:20260524T093000
+SUMMARY:Session 01 — orientation — — (aops-vol1-algebra-core)
+DESCRIPTION:Orientation — read README\, goals\, concept-graph; Bear Hunter node titles.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 01
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-02@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260525T090000
+DTEND;TZID=America/New_York:20260525T093000
+SUMMARY:Session 02 — node-combined — 01-linear-one-var (aops-vol1-algebra-core)
+DESCRIPTION:Combined fluency+schema for 01-linear-one-var.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 02
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-03@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260528T090000
+DTEND;TZID=America/New_York:20260528T093000
+SUMMARY:Session 03 — node-combined — 02-absolute-value (aops-vol1-algebra-core)
+DESCRIPTION:Combined fluency+schema for 02-absolute-value.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 03
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-04@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260601T090000
+DTEND;TZID=America/New_York:20260601T093000
+SUMMARY:Session 04 — node-fluency — 03-systems-two-var (aops-vol1-algebra-core)
+DESCRIPTION:Fluency for 03-systems-two-var.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 04
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-05@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260604T090000
+DTEND;TZID=America/New_York:20260604T093000
+SUMMARY:Session 05 — node-schema — 03-systems-two-var (aops-vol1-algebra-core)
+DESCRIPTION:Schema for 03-systems-two-var.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 05
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-06@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260608T090000
+DTEND;TZID=America/New_York:20260608T093000
+SUMMARY:Session 06 — node-fluency — 04-word-problems (aops-vol1-algebra-core)
+DESCRIPTION:Fluency for 04-word-problems.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 06
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-07@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260611T090000
+DTEND;TZID=America/New_York:20260611T093000
+SUMMARY:Session 07 — node-schema — 04-word-problems (aops-vol1-algebra-core)
+DESCRIPTION:Schema for 04-word-problems.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 07
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-08@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260615T090000
+DTEND;TZID=America/New_York:20260615T093000
+SUMMARY:Session 08 — interleaving — 01-04 (aops-vol1-algebra-core)
+DESCRIPTION:Interleaving across nodes 01-04.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 08
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-09@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260618T090000
+DTEND;TZID=America/New_York:20260618T093000
+SUMMARY:Session 09 — node-combined — 05-quadratic-factoring (aops-vol1-algebra-core)
+DESCRIPTION:Combined fluency+schema for 05-quadratic-factoring.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 09
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-10@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260622T090000
+DTEND;TZID=America/New_York:20260622T093000
+SUMMARY:Session 10 — grinde-map — — (aops-vol1-algebra-core)
+DESCRIPTION:GRINDE — redraw concept-graph from memory; compare.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 10
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-11@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260625T090000
+DTEND;TZID=America/New_York:20260625T093000
+SUMMARY:Session 11 — node-schema — 06-quadratic-formula (aops-vol1-algebra-core)
+DESCRIPTION:Schema for 06-quadratic-formula incl. NEW discriminant sign cases.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 11
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-12@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260629T090000
+DTEND;TZID=America/New_York:20260629T093000
+SUMMARY:Session 12 — node-schema — 07-quadratic-variations (aops-vol1-algebra-core)
+DESCRIPTION:Schema for 07-quadratic-variations incl. NEW substitution-unwinding.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 12
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-13@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260702T090000
+DTEND;TZID=America/New_York:20260702T093000
+SUMMARY:Session 13 — interleaving — 05-07 (aops-vol1-algebra-core)
+DESCRIPTION:Interleaving across nodes 05-07.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 13
+END:VEVENT
+BEGIN:VEVENT
+UID:aops-vol1-algebra-core-session-14@learning-plan
+SEQUENCE:2
+DTSTAMP:20260524T070000Z
+DTSTART;TZID=America/New_York:20260706T090000
+DTEND;TZID=America/New_York:20260706T093000
+SUMMARY:Session 14 — final-whole — 07-quadratic-variations (aops-vol1-algebra-core)
+DESCRIPTION:Final whole — schema-peak exercise cold; reflect.\n\nSee schedule/sessions.md and nodes/ folder.\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 14
+END:VEVENT
+END:VCALENDAR
