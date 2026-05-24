@@ -3,7 +3,14 @@
 A learning module built from *The Art of Problem Solving, Volume 1* (Lehoczky & Rusczyk).
 Entry point: Ch 3 (Linear Equations). Target: Ch 6.4 (quadratic variations via substitution).
 
-Source: `~/claude-workspace/aops-algebra1/The art of problem solving. Volume 1, The basics ( PDFDrive ).pdf`
+## Dependencies
+
+This module is a study **plan and supporting artifacts** — it does not contain the source text. You need a copy of the book to use it:
+
+- **Lehoczky, Sandor & Rusczyk, Richard. *The Art of Problem Solving, Volume 1: The Basics*.** 7th ed., AoPS Inc., 2006. ISBN 978-0977304561.
+- Chapters used: **Ch 3** (linear equations), **Ch 4** (absolute value), **Ch 5** (systems / word problems), **Ch 6** (quadratics, §6.1–6.4).
+- Node files cite specific sections under `## Sources`. Open the book to those sections when working a node.
+- The PDF / hard copy is **not** tracked in this repo — keep your copy locally.
 
 ## Structure
 
