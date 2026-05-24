@@ -16,16 +16,16 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** —
 
 **Activities:**
-- [ ] Read README.md
-- [ ] Read goals.md
-- [ ] Skim concept-graph.md
+- [ ] Read [README.md](../README.md)
+- [ ] Read [goals.md](../goals.md)
+- [ ] Skim [concept-graph.md](../concept-graph.md)
 - [ ] Bear Hunter the node files (titles only)
-- [ ] Fill in `schedule/logs/session-01.md`
+- [ ] Fill in [schedule/logs/session-01.md](logs/session-01.md)
 
 **References:**
-- README: `README.md`
-- Goals: `goals.md`
-- Graph: `concept-graph.md`
+- README: [README.md](../README.md)
+- Goals: [goals.md](../goals.md)
+- Graph: [concept-graph.md](../concept-graph.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 01`
 
@@ -36,16 +36,16 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `01-linear-one-var`
 
 **Activities:**
-- [ ] Read nodes/01-linear-one-var.md
-- [ ] Work through nodes/01-linear-one-var/fluency-v1.md
-- [ ] Check against fluency-v1-key.md
+- [ ] Read [nodes/01-linear-one-var.md](../nodes/01-linear-one-var.md)
+- [ ] Work through [nodes/01-linear-one-var/fluency-v1.md](../nodes/01-linear-one-var/fluency-v1.md)
+- [ ] Check against [fluency-v1-key.md](../nodes/01-linear-one-var/fluency-v1-key.md)
 - [ ] Work through schema exercises in the node file
 - [ ] Attempt the three metacog checks
-- [ ] Fill in `schedule/logs/session-02.md`
+- [ ] Fill in [schedule/logs/session-02.md](logs/session-02.md)
 
 **References:**
-- Node: `nodes/01-linear-one-var.md`
-- Fluency: `nodes/01-linear-one-var/fluency-v1.md`
+- Node: [nodes/01-linear-one-var.md](../nodes/01-linear-one-var.md)
+- Fluency: [nodes/01-linear-one-var/fluency-v1.md](../nodes/01-linear-one-var/fluency-v1.md)
 - Key: `nodes/01-linear-one-var/fluency-v1-key.md`
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 02`
@@ -57,16 +57,16 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `02-absolute-value`
 
 **Activities:**
-- [ ] Read nodes/02-absolute-value.md
-- [ ] Work through nodes/02-absolute-value/fluency-v1.md
-- [ ] Check against fluency-v1-key.md
+- [ ] Read [nodes/02-absolute-value.md](../nodes/02-absolute-value.md)
+- [ ] Work through [nodes/02-absolute-value/fluency-v1.md](../nodes/02-absolute-value/fluency-v1.md)
+- [ ] Check against [fluency-v1-key.md](../nodes/02-absolute-value/fluency-v1-key.md)
 - [ ] Work through schema exercises in the node file
 - [ ] Attempt the three metacog checks
-- [ ] Fill in `schedule/logs/session-03.md`
+- [ ] Fill in [schedule/logs/session-03.md](logs/session-03.md)
 
 **References:**
-- Node: `nodes/02-absolute-value.md`
-- Fluency: `nodes/02-absolute-value/fluency-v1.md`
+- Node: [nodes/02-absolute-value.md](../nodes/02-absolute-value.md)
+- Fluency: [nodes/02-absolute-value/fluency-v1.md](../nodes/02-absolute-value/fluency-v1.md)
 - Key: `nodes/02-absolute-value/fluency-v1-key.md`
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 03`
@@ -78,11 +78,11 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `03-systems-two-var`
 
 **Activities:**
-- [ ] Read nodes/03-systems-two-var.md
-- [ ] Work through nodes/03-systems-two-var/fluency-v1.md
-- [ ] Check against fluency-v1-key.md
+- [ ] Read [nodes/03-systems-two-var.md](../nodes/03-systems-two-var.md)
+- [ ] Work through [nodes/03-systems-two-var/fluency-v1.md](../nodes/03-systems-two-var/fluency-v1.md)
+- [ ] Check against [fluency-v1-key.md](../nodes/03-systems-two-var/fluency-v1-key.md)
 - [ ] Note any miss patterns
-- [ ] Fill in `schedule/logs/session-04.md`
+- [ ] Fill in [schedule/logs/session-04.md](logs/session-04.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 04`
 
@@ -93,10 +93,10 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `03-systems-two-var`
 
 **Activities:**
-- [ ] Re-read nodes/03-systems-two-var.md
+- [ ] Re-read [nodes/03-systems-two-var.md](../nodes/03-systems-two-var.md)
 - [ ] Work through schema exercises in the node file
 - [ ] Attempt the three metacog checks
-- [ ] Fill in `schedule/logs/session-05.md`
+- [ ] Fill in [schedule/logs/session-05.md](logs/session-05.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 05`
 
@@ -107,11 +107,11 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `04-word-problems`
 
 **Activities:**
-- [ ] Read nodes/04-word-problems.md
-- [ ] Work through nodes/04-word-problems/fluency-v1.md
-- [ ] Check against fluency-v1-key.md
+- [ ] Read [nodes/04-word-problems.md](../nodes/04-word-problems.md)
+- [ ] Work through [nodes/04-word-problems/fluency-v1.md](../nodes/04-word-problems/fluency-v1.md)
+- [ ] Check against [fluency-v1-key.md](../nodes/04-word-problems/fluency-v1-key.md)
 - [ ] Note any miss patterns
-- [ ] Fill in `schedule/logs/session-06.md`
+- [ ] Fill in [schedule/logs/session-06.md](logs/session-06.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 06`
 
@@ -122,10 +122,10 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `04-word-problems`
 
 **Activities:**
-- [ ] Re-read nodes/04-word-problems.md
+- [ ] Re-read [nodes/04-word-problems.md](../nodes/04-word-problems.md)
 - [ ] Work through schema exercises in the node file
 - [ ] Attempt the three metacog checks
-- [ ] Fill in `schedule/logs/session-07.md`
+- [ ] Fill in [schedule/logs/session-07.md](logs/session-07.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 07`
 
@@ -139,7 +139,7 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 - [ ] Mix 6 problems across nodes 01–04 (drawn from each node's schema exercises)
 - [ ] Force yourself to identify which strategy applies BEFORE solving
 - [ ] Note any strategy-selection misfires
-- [ ] Fill in `schedule/logs/session-08.md`
+- [ ] Fill in [schedule/logs/session-08.md](logs/session-08.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 08`
 
@@ -150,12 +150,12 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `05-quadratic-factoring`
 
 **Activities:**
-- [ ] Read nodes/05-quadratic-factoring.md
-- [ ] Work through nodes/05-quadratic-factoring/fluency-v1.md
-- [ ] Check against fluency-v1-key.md
+- [ ] Read [nodes/05-quadratic-factoring.md](../nodes/05-quadratic-factoring.md)
+- [ ] Work through [nodes/05-quadratic-factoring/fluency-v1.md](../nodes/05-quadratic-factoring/fluency-v1.md)
+- [ ] Check against [fluency-v1-key.md](../nodes/05-quadratic-factoring/fluency-v1-key.md)
 - [ ] Work through schema exercises in the node file
 - [ ] Attempt the three metacog checks
-- [ ] Fill in `schedule/logs/session-09.md`
+- [ ] Fill in [schedule/logs/session-09.md](logs/session-09.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 09`
 
@@ -167,9 +167,9 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 
 **Activities:**
 - [ ] On paper: redraw the concept graph from memory (GRINDE — grouped, reflective, interconnected, non-verbal, directional, emphasized)
-- [ ] Compare to `concept-graph.md`
+- [ ] Compare to [concept-graph.md](../concept-graph.md)
 - [ ] Note the delta — that's your weakest schema link
-- [ ] Fill in `schedule/logs/session-10.md`
+- [ ] Fill in [schedule/logs/session-10.md](logs/session-10.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 10`
 
@@ -180,11 +180,11 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `06-quadratic-formula`
 
 **Activities:**
-- [ ] Read nodes/06-quadratic-formula.md
+- [ ] Read [nodes/06-quadratic-formula.md](../nodes/06-quadratic-formula.md)
 - [ ] Work through schema exercises in the node file (incl. the NEW discriminant-sign-case exercises added in the 2026-05-24 refine)
 - [ ] Attempt the three metacog checks
 - [ ] Re-derive the quadratic formula at AoPS rigor — every algebra step explicit
-- [ ] Fill in `schedule/logs/session-11.md`
+- [ ] Fill in [schedule/logs/session-11.md](logs/session-11.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 11`
 
@@ -195,11 +195,11 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `07-quadratic-variations`
 
 **Activities:**
-- [ ] Read nodes/07-quadratic-variations.md
+- [ ] Read [nodes/07-quadratic-variations.md](../nodes/07-quadratic-variations.md)
 - [ ] Work through schema exercises in the node file (incl. the NEW substitution-unwinding exercises added in the 2026-05-24 refine)
 - [ ] Pay special attention: solve in u, THEN unwind to x to completion (this was the diagnostic gap)
 - [ ] Attempt the three metacog checks
-- [ ] Fill in `schedule/logs/session-12.md`
+- [ ] Fill in [schedule/logs/session-12.md](logs/session-12.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 12`
 
@@ -212,7 +212,7 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Activities:**
 - [ ] Mix 6 problems across nodes 05–07
 - [ ] Before solving each: identify whether factoring, the quadratic formula, or a substitution is the right tool
-- [ ] Fill in `schedule/logs/session-13.md`
+- [ ] Fill in [schedule/logs/session-13.md](logs/session-13.md)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 13`
 
@@ -223,10 +223,10 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `07-quadratic-variations`
 
 **Activities:**
-- [ ] Re-read `concept-graph.md`
-- [ ] Restate the mastery goal from `goals.md` in your own words
+- [ ] Re-read [concept-graph.md](../concept-graph.md)
+- [ ] Restate the mastery goal from [goals.md](../goals.md) in your own words
 - [ ] Attempt the 07-quadratic-variations schema-peak exercise cold (no notes)
-- [ ] Fill in `schedule/logs/session-14.md`
+- [ ] Fill in [schedule/logs/session-14.md](logs/session-14.md)
 - [ ] Reflect on what to learn next (next-module candidate?)
 
 **When done:** `/learning-plan complete aops-vol1-algebra-core 14`
