@@ -28,6 +28,7 @@ Two linear equations in two unknowns. The core insight is that each equation des
 1. **General proof.** AoPS (p. 20) asks: given `a₁x + a₂y = a₃` and `b₁x + b₂y = b₃`, multiply the first by `-b₁` and the second by `a₁`, then add. What happens to x? Write the general solution for y and then for x. Under what conditions on the a's and b's does this fail? What geometric fact does that condition correspond to?
 2. **Non-linear as linear.** Solve: `2√x + 4√y = 10` and `2√x - 3√y = 3`. (Treat `√x` and `√y` as the unknowns, solve, then square.) Explain why you can treat `√x` as a single variable here and what constraint that places on your final answers.
 3. **Building from a solution.** Construct a 2×2 linear system whose unique solution is `(x, y) = (-1, 4)`. Now modify one equation so the system has infinitely many solutions. What algebraic relationship must the two equations satisfy for that to happen?
+4. **Balance vs. cancel — applied to a system.** Solve: `(x + y)/2 = 3` and `1/x + 1/y = 5/6`. The first equation invites a "balance both sides by 2" move; the second invites clearing denominators by multiplying through by `xy` (a balance move, *not* a cancellation). Show every multiplier explicitly and label each step as either (a) balancing both sides by the same quantity or (b) simplifying a single expression by cancelling. State any domain restrictions introduced by the second equation. See the "balance vs. cancel" subsection of [01-linear-one-var.md](../nodes/01-linear-one-var.md) if the distinction is fuzzy.
 
 ## Metacog checks
 

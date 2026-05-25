@@ -13,6 +13,20 @@
 
 A linear equation in one variable has degree one — no variable raised to a power other than 1, no products of variables. The AoPS treatment goes beyond mechanics: it introduces solving for a variable in terms of other constants (e.g. solve `ax + b = c` for x), and uses non-obvious manipulation to linearize equations that don't look linear at first (e.g. `1/y + 1 = 3y`). Fluency-heavy node — the goal is that single-variable manipulation becomes automatic so it doesn't consume working memory in harder problems.
 
+## Clarification — balancing both sides vs. cancelling a denominator
+
+Two operations look similar but do different things. Confusing them is how `x/x` on one side and `1/x` on the other can sneak into the same step and break an equation.
+
+**Balancing both sides (legal everywhere).** Multiply both sides of an equation by the *same* nonzero quantity. The equality is preserved because you applied the same operation to two equal things. Use this when you want to clear a denominator from one or both sides.
+
+> Example. `(x + 1)/2 = (x - 3)/4`. Multiply *both* sides by 4 (the same quantity on each side): `2(x + 1) = (x - 3)`. The denominators are cleared because the multiplier was chosen to cancel them — not because we "moved" them.
+
+**Cancelling within a single fraction (a simplification, not a balance move).** `(kx)/x = k` (with `x ≠ 0`). Cancellation is just `a·b / a = b`. It happens *inside one expression*. It is not an operation applied to "the equation."
+
+**The failure mode.** Multiplying the left side by `x/x` while multiplying the right side by `1/x` is two *different* multipliers — not a balance move at all. The result is not equivalent to the original equation.
+
+**Rule of thumb.** Before manipulating a fraction in an equation, ask: am I (a) multiplying *both* sides by the same thing to clear denominators, or (b) simplifying a single expression by cancelling a common factor? If neither, the move is probably illegal.
+
 ## Sources
 - AoPS Vol. 1, Ch 3, §3.1–3.2 (pp. 17–18)
 - AoPS Exercises 3-1 and 3-2 (p. 18)

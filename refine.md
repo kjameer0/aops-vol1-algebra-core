@@ -77,3 +77,28 @@ None. Session-01 log left as-is (issues were template-level and only affect futu
 
 ### Recommended follow-ups
 - Future `/learning-plan complete` runs will emit logs with the new fields populated. No reschedule needed.
+
+---
+
+## 2026-05-25 — sources: logs (session-02)
+
+### Applied
+- **Combined sessions split into fluency + schema** to keep the 30-min target honest (session-02 ran 3.3x expected).
+  - Old session 03 (node-combined, 02-absolute-value) → new sessions 03 (fluency) + 04 (schema)
+  - Old session 09 (node-combined, 05-quadratic-factoring) → new sessions 10 (fluency) + 11 (schema)
+  - Old session 02 (node-combined, 01-linear-one-var) was already completed and stays combined (one-off).
+  - Net: 14 → 16 sessions. End date moves from 2026-07-06 → 2026-07-13 (Mon).
+  - `plan.yaml`: sessions list rewritten with new ids and types. Cadence-block comment added.
+  - `schedule/sessions.md` and `schedule/learning-plan.ics`: regenerated with new sequence and dates. Existing UIDs reused (Calendar updates events in place; content shifts for renumbered slots).
+  - `schedule/logs/session-03.md` header updated from `node-combined` → `node-fluency`.
+- **"Balance vs. cancel" clarification added to `nodes/01-linear-one-var.md`.** New subsection between "What this node is" and "Sources" distinguishing (a) multiplying both sides of an equation by the same quantity from (b) cancellation inside a single fraction. Worked example shows the exact failure mode from the session-02 log (multiplying one side by `x/x` and the other by `1/x`).
+- **New schema Ex 4 added to `nodes/03-systems-two-var.md`** targeting the same distinction — solving a 2-equation system where one equation invites a balance move and the other a denominator-clearing move. Forces explicit labelling of each step as balance vs. cancel and surfacing of domain restrictions. Includes pointer back to the node-01 subsection.
+- `plan.yaml`: `03-systems-two-var.schema_exercises: 3 → 4` (with dated comment). Session 06 (new id) activities reference the new Ex 4 and the pre-read of the node-01 subsection.
+
+### Surfaced (user decision required)
+None remaining.
+
+### Recommended follow-ups
+- Re-import `schedule/learning-plan.ics` into Calendar (open command at end of complete-run handles this).
+- No worksheets marked stale — `fluency_spec` counts didn't change for any node; the +1 on `03-systems-two-var` is a schema exercise, not fluency.
+- Watch session-03 duration vs. expected to confirm the split helps.

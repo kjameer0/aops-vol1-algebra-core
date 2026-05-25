@@ -1,6 +1,6 @@
 # Session log — aops-vol1-algebra-core — session 03
 
-**Type:** node-combined
+**Type:** node-fluency
 **Nodes:** 02-absolute-value
 **Date:** 2026-05-28
 **Expected duration:** 30

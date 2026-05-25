@@ -46,7 +46,7 @@ nodes:
       topic: "systems of two linear equations by substitution and elimination"
       count: 10
       difficulty: algebra-1
-    schema_exercises: 3
+    schema_exercises: 4   # +1 added 2026-05-25 — denominator-manipulation distinction (balance vs. cancel) from session-02 log
     metacog: [explanation, transfer, connection]
 
   - id: 04-word-problems
@@ -100,6 +100,10 @@ cadence:
   # - Easy nodes 01, 02, 05 use a single combined fluency+schema session each (diagnostic showed trivial)
   # - Session 01 (orientation) starts today, Sun 2026-05-24, as a one-off. The Mon+Thu rhythm
   #   resumes from session 02 onward.
+  # Decision (2026-05-25, refine):
+  # - Combined sessions for nodes 02 and 05 split into fluency + schema to keep the
+  #   30-min target honest (session-02 ran 3.3x expected). Node 01's combined session
+  #   (now session 02) was already completed and stays combined.
 review_policy:
   spacing: [1, 3, 7, 14]
   applied: false               # not used in this module's schedule
@@ -130,7 +134,7 @@ sessions:
       - "Fill in schedule/logs/session-02.md"
 
   - id: "03"
-    type: node-combined
+    type: node-fluency
     nodes: [02-absolute-value]
     target_offset: 1
     completed_on: null
@@ -138,11 +142,21 @@ sessions:
       - "Read nodes/02-absolute-value.md"
       - "Work through nodes/02-absolute-value/fluency-v1.md"
       - "Check against fluency-v1-key.md"
-      - "Work through schema exercises in the node file"
-      - "Attempt the three metacog checks"
+      - "Note any miss patterns"
       - "Fill in schedule/logs/session-03.md"
 
   - id: "04"
+    type: node-schema
+    nodes: [02-absolute-value]
+    target_offset: 1
+    completed_on: null
+    activities:
+      - "Re-read nodes/02-absolute-value.md"
+      - "Work through schema exercises in the node file"
+      - "Attempt the three metacog checks"
+      - "Fill in schedule/logs/session-04.md"
+
+  - id: "05"
     type: node-fluency
     nodes: [03-systems-two-var]
     target_offset: 1
@@ -152,20 +166,21 @@ sessions:
       - "Work through nodes/03-systems-two-var/fluency-v1.md"
       - "Check against fluency-v1-key.md"
       - "Note any miss patterns"
-      - "Fill in schedule/logs/session-04.md"
+      - "Fill in schedule/logs/session-05.md"
 
-  - id: "05"
+  - id: "06"
     type: node-schema
     nodes: [03-systems-two-var]
     target_offset: 1
     completed_on: null
     activities:
       - "Re-read nodes/03-systems-two-var.md"
-      - "Work through schema exercises in the node file"
+      - "Work through schema exercises in the node file (incl. NEW Ex 4: balance-vs-cancel applied to a system, added 2026-05-25 to target the denominator-manipulation gap from session-02 log)"
+      - "First re-read the 'Clarification — balancing vs. cancelling' subsection in nodes/01-linear-one-var.md"
       - "Attempt the three metacog checks"
-      - "Fill in schedule/logs/session-05.md"
+      - "Fill in schedule/logs/session-06.md"
 
-  - id: "06"
+  - id: "07"
     type: node-fluency
     nodes: [04-word-problems]
     target_offset: 1
@@ -175,9 +190,9 @@ sessions:
       - "Work through nodes/04-word-problems/fluency-v1.md"
       - "Check against fluency-v1-key.md"
       - "Note any miss patterns"
-      - "Fill in schedule/logs/session-06.md"
+      - "Fill in schedule/logs/session-07.md"
 
-  - id: "07"
+  - id: "08"
     type: node-schema
     nodes: [04-word-problems]
     target_offset: 1
@@ -186,9 +201,9 @@ sessions:
       - "Re-read nodes/04-word-problems.md"
       - "Work through schema exercises in the node file"
       - "Attempt the three metacog checks"
-      - "Fill in schedule/logs/session-07.md"
+      - "Fill in schedule/logs/session-08.md"
 
-  - id: "08"
+  - id: "09"
     type: interleaving
     nodes: [01-linear-one-var, 02-absolute-value, 03-systems-two-var, 04-word-problems]
     target_offset: 1
@@ -197,10 +212,10 @@ sessions:
       - "Mix 6 problems across nodes 01-04 (drawn from each node's schema exercises)"
       - "Force yourself to identify which strategy applies BEFORE solving"
       - "Note any strategy-selection misfires"
-      - "Fill in schedule/logs/session-08.md"
+      - "Fill in schedule/logs/session-09.md"
 
-  - id: "09"
-    type: node-combined
+  - id: "10"
+    type: node-fluency
     nodes: [05-quadratic-factoring]
     target_offset: 1
     completed_on: null
@@ -208,11 +223,21 @@ sessions:
       - "Read nodes/05-quadratic-factoring.md"
       - "Work through nodes/05-quadratic-factoring/fluency-v1.md"
       - "Check against fluency-v1-key.md"
+      - "Note any miss patterns"
+      - "Fill in schedule/logs/session-10.md"
+
+  - id: "11"
+    type: node-schema
+    nodes: [05-quadratic-factoring]
+    target_offset: 1
+    completed_on: null
+    activities:
+      - "Re-read nodes/05-quadratic-factoring.md"
       - "Work through schema exercises in the node file"
       - "Attempt the three metacog checks"
-      - "Fill in schedule/logs/session-09.md"
+      - "Fill in schedule/logs/session-11.md"
 
-  - id: "10"
+  - id: "12"
     type: grinde-map
     nodes: []
     target_offset: 1
@@ -221,9 +246,9 @@ sessions:
       - "On paper: redraw the concept graph from memory (GRINDE — grouped, reflective, interconnected, non-verbal, directional, emphasized)"
       - "Compare to concept-graph.md"
       - "Note the delta — that's your weakest schema link"
-      - "Fill in schedule/logs/session-10.md"
+      - "Fill in schedule/logs/session-12.md"
 
-  - id: "11"
+  - id: "13"
     type: node-schema
     nodes: [06-quadratic-formula]
     target_offset: 1
@@ -233,9 +258,9 @@ sessions:
       - "Work through schema exercises in the node file (incl. NEW discriminant sign cases from refine 2026-05-24)"
       - "Attempt the three metacog checks"
       - "Re-derive the quadratic formula at AoPS rigor — every algebra step explicit"
-      - "Fill in schedule/logs/session-11.md"
+      - "Fill in schedule/logs/session-13.md"
 
-  - id: "12"
+  - id: "14"
     type: node-schema
     nodes: [07-quadratic-variations]
     target_offset: 1
@@ -245,9 +270,9 @@ sessions:
       - "Work through schema exercises in the node file (incl. NEW substitution-unwinding exercises from refine 2026-05-24)"
       - "Pay special attention: solve in u, THEN unwind to x to completion"
       - "Attempt the three metacog checks"
-      - "Fill in schedule/logs/session-12.md"
+      - "Fill in schedule/logs/session-14.md"
 
-  - id: "13"
+  - id: "15"
     type: interleaving
     nodes: [05-quadratic-factoring, 06-quadratic-formula, 07-quadratic-variations]
     target_offset: 1
@@ -255,9 +280,9 @@ sessions:
     activities:
       - "Mix 6 problems across nodes 05-07"
       - "Before solving each: identify whether factoring, the quadratic formula, or a substitution is the right tool"
-      - "Fill in schedule/logs/session-13.md"
+      - "Fill in schedule/logs/session-15.md"
 
-  - id: "14"
+  - id: "16"
     type: final-whole
     nodes: [07-quadratic-variations]
     target_offset: 1
@@ -266,5 +291,5 @@ sessions:
       - "Re-read concept-graph.md"
       - "Restate the mastery goal from goals.md in your own words"
       - "Attempt the 07-quadratic-variations schema-peak exercise cold (no notes)"
-      - "Fill in schedule/logs/session-14.md"
+      - "Fill in schedule/logs/session-16.md"
       - "Reflect on what to learn next (next module candidate?)"
