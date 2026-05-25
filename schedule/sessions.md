@@ -36,12 +36,12 @@ When you finish a session, run `/learning-plan complete aops-vol1-algebra-core N
 **Nodes:** `01-linear-one-var`
 
 **Activities:**
-- [ ] Read [nodes/01-linear-one-var.md](../nodes/01-linear-one-var.md)
-- [ ] Work through [nodes/01-linear-one-var/fluency-v1.md](../nodes/01-linear-one-var/fluency-v1.md)
-- [ ] Check against [fluency-v1-key.md](../nodes/01-linear-one-var/fluency-v1-key.md)
-- [ ] Work through schema exercises in the node file
-- [ ] Attempt the three metacog checks
-- [ ] Fill in [schedule/logs/session-02.md](logs/session-02.md)
+- [x] Read [nodes/01-linear-one-var.md](../nodes/01-linear-one-var.md)
+- [x] Work through [nodes/01-linear-one-var/fluency-v1.md](../nodes/01-linear-one-var/fluency-v1.md)
+- [x] Check against [fluency-v1-key.md](../nodes/01-linear-one-var/fluency-v1-key.md)
+- [x] Work through schema exercises in the node file
+- [x] Attempt the three metacog checks
+- [x] Fill in [schedule/logs/session-02.md](logs/session-02.md)
 
 **References:**
 - Node: [nodes/01-linear-one-var.md](../nodes/01-linear-one-var.md)

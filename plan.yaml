@@ -120,7 +120,7 @@ sessions:
     type: node-combined
     nodes: [01-linear-one-var]
     target_offset: 1
-    completed_on: null
+    completed_on: 2026-05-25
     activities:
       - "Read nodes/01-linear-one-var.md"
       - "Work through nodes/01-linear-one-var/fluency-v1.md"

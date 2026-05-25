@@ -31,6 +31,11 @@ A linear equation in one variable has degree one — no variable raised to a pow
 2. **Coefficient as variable.** You have `kx + 3 = 2x + k` where k is a constant. Find x in terms of k. For what value of k does the equation have no solution? Infinitely many? Explain why each case arises.
 3. **Backwards construction.** Write a linear equation in one variable whose solution is x = -3/2 and that requires at least two steps to solve. Now write one that *looks* linear but has no solution. Explain the structural reason it fails.
 
+## Schema-building answers
+1. factoring a perfect square trinomial gets us (y-1)^2 = 0. this works because the original expression can be turned into a perfect sqaure to begin with. I need to look more closely for impossible answers in problems. 0 is not on the table as a solution here because y is in the denominator with no other terms to add to it. this helped me learn that there are multiple things being encoded in an equation, equality AND domain restrictions which I should check first to prevent adding wrong numbers to the solution set.
+2. There are 0 solutions if there k = 2 because the denominator would be 0. this means that the two lines generated from the two sides of the equation would be parallel. there are no v1alues for which there are infinitely many solutions, because for there to be infinitely many the lines have to be the same. the slope of one side is always 2, and the the other side's m changes as k changes, so the 2 lines can never meet since they are still different lines when k = 2.
+3. 2x + 3 = 0. you have to subtract 3 from both sides and then divide by 2 to isolate x. for the second equation: 3x + 1 = 3x + 2 looks linear but has no solutions because these two lines are never parallel.
+
 ## Metacog checks
 
 Run these before advancing. Minimum bar: pass explanation and at least one of transfer or connection.
@@ -38,3 +43,8 @@ Run these before advancing. Minimum bar: pass explanation and at least one of tr
 - **Explanation**: Why does "move the variable to one side and constants to the other" always work for linear equations? What property of equality justifies each step?
 - **Transfer**: A classmate claims `2x + 3 = 2x - 5` has solution x = 0. Without solving, how do you know immediately that there's no solution?
 - **Connection**: How does solving `ax + b = c` for x connect to what you'll do in node 03 (systems)? What is the same operation, just applied twice?
+
+## Metacog check answers
+1. Explanation: the addition property of equality justifies moving variables to one side of an equation and constants to another. Knowing the value of a variable(or acceptable values) is made easier by expressing that variable in terms of other constants. The addition property of equality(as well multiplication property of equality) allows us to shift linear equations as we see fit according to those rules to reword and equation into a more interpretable form
+2. Transfer: whoever this person is is wrong because there are isolated constants that are unequal to each other, so if x is 0 then it won't change the fact that these values won't be affected by x and will be unequal.
+3. Connection: systems of linear equations require expressing two separate equations in terms of the same variable to set them equal.

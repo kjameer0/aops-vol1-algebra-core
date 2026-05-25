@@ -16,12 +16,12 @@ DESCRIPTION:✓ COMPLETED 2026-05-24\n\nOrientation — read README\, goals\, co
 END:VEVENT
 BEGIN:VEVENT
 UID:aops-vol1-algebra-core-session-02@learning-plan
-SEQUENCE:3
-DTSTAMP:20260524T233000Z
+SEQUENCE:4
+DTSTAMP:20260525T120000Z
 DTSTART;TZID=America/New_York:20260525T090000
 DTEND;TZID=America/New_York:20260525T093000
 SUMMARY:Session 02 — node-combined — 01-linear-one-var (aops-vol1-algebra-core)
-DESCRIPTION:Combined fluency+schema for 01-linear-one-var.\n\nActivities:\n- Read nodes/01-linear-one-var.md\n- Work through nodes/01-linear-one-var/fluency-v1.md\n- Check against fluency-v1-key.md\n- Work through schema exercises in the node file\n- Attempt the three metacog checks\n- Fill in schedule/logs/session-02.md\n\nWhen done\, run /learning-plan complete aops-vol1-algebra-core 02
+DESCRIPTION:✓ COMPLETED 2026-05-25\n\nCombined fluency+schema for 01-linear-one-var.\n\nSee schedule/logs/session-02.md.
 END:VEVENT
 BEGIN:VEVENT
 UID:aops-vol1-algebra-core-session-03@learning-plan
