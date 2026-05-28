@@ -15,7 +15,7 @@ Source: `~/claude-workspace/aops-algebra1/The art of problem solving. Volume 1, 
 
 1. Read `concept-graph.md` first — map the terrain before diving in (Bear Hunter / first Whole, §10)
 2. Walk nodes in dependency order
-3. At each node: read the AoPS section, do fluency reps until axutomatic, then work the schema exercises
+3. At each node: read the AoPS section, do fluency reps until automatic, then work the schema exercises
 4. Run the three metacog checks before advancing — explanation check is the minimum bar
 
 ## What this module is testing
